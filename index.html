@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minecraft Mods</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="dark-theme">
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="mods-de-aventura.html">MODS</a></li>
+        <li><a href="#">MAPAS</a></li>
+        <li><a href="#">TEXTURAS</a></li>
+        <li><a href="#">SHADERS</a></li>
+      </ul>
+      <div class="menu-highlight"></div>
+    </nav>
+  </header>
+
+  <div id="mods-list" style="display: none;">
+    <!-- Conteúdo da lista de mods otimizados -->
+    <h2>Mods Otimizados</h2>
+    <ul>
+      <li>Mod 1</li>
+      <li>Mod 2</li>
+      <li>Mod 3</li>
+      <!-- Adicione mais itens de mod conforme necessário -->
+    </ul>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Deixe seu Minecraft com uma cara nova</h1>
+      <p>Baixe Mods, Texturas e Shaders</p>
+      <a href="mods-de-aventura.html" class="cta-button">Ver Mods</a>
+    </div>
+  </section>
+
+  <section class="featured">
+    <h2>Mods em Destaque</h2>
+    <div class="mod-card">
+      <img src="https://desapegogames.com.br/assets/site/imagens/anuncios/2022/03/03/22ab41401215945c1652dc0b339c0aba.jpg" alt="Mod 1">
+      <h3>Optifine</h3>
+      <p>OptiFine é um mod popular para o jogo Minecraft. Ele é projetado para melhorar o desempenho do jogo, adicionando várias otimizações e recursos adicionais. OptiFine permite que os jogadores personalizem várias configurações gráficas e de desempenho para melhorar a fluidez e o visual do jogo.</p>
+      <a href="#" class="rounded-button">Download</a>
+    </div>
+    <div class="mod-card">
+      <img src="https://media.forgecdn.net/avatars/284/773/637298471098686391.png" alt="Mod 2">
+      <h3>Sodium</h3>
+      <p>Sodium é um mod para o jogo Minecraft que tem como objetivo melhorar o desempenho do jogo, especialmente em termos de taxa de quadros por segundo (FPS) e tempo de resposta. Ele foi projetado para otimizar o código do jogo, reduzindo a carga de processamento e melhorando a eficiência do desempenho.</p>
+      <a href="#" class="rounded-button">Download</a>
+    </div>
+    <div class="mod-card">
+      <img src="https://media.forgecdn.net/avatars/589/941/637961404920221254.png" alt="Mod 3">
+      <h3>Iris Shaders</h3>
+      <p>Iris Shaders é um pacote de shaders (modificações visuais) para o jogo Minecraft. Shaders são mods que alteram a forma como o jogo é renderizado, adicionando efeitos visuais realistas e aprimorando a qualidade gráfica.</p>
+      <a href="#" class="rounded-button">Download</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Minecraft Mods. Todos os direitos reservados.</p>
+    <a href="#" class="discord-icon"><i class="fab fa-discord"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function toggleMods() {
+      var modsList = document.getElementById('mods-list');
+      if (modsList.style.display === 'none') {
+        modsList.style.display = 'block';
+      } else {
+        modsList.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
